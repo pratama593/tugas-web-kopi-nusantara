@@ -1,0 +1,167 @@
+/* 1. Body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    background-color: #F0F3ED;
+    color: #263D3A;
+    line-height: 1.7;
+}
+
+/* 2. Header */
+#header {
+    background-color: #203C3A;
+    color: #FFFFFF;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.logo {
+    color: #E9A477;
+    font-size: 30px;
+    margin: 0 0 18px;
+    letter-spacing: 1px;
+}
+
+/* 3. Link menu navigasi */
+.menu-link {
+    color: #F0F3ED;
+    text-decoration: none;
+    display: inline-block;
+    padding: 9px 16px;
+    margin: 4px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.menu-link:hover {
+    background-color: #E9A477;
+    color: #203C3A;
+}
+
+/* 4. Section */
+.section {
+    padding: 35px 20px;
+    margin: 20px auto;
+    max-width: 1100px;
+    box-sizing: border-box;
+}
+
+/* 5. Judul section */
+.judul {
+    color: #315C55;
+    text-align: center;
+    font-size: 27px;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+/* 6. Tombol */
+.tombol {
+    display: inline-block;
+    background-color: #D77D57;
+    color: white;
+    padding: 11px 23px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.tombol:hover {
+    background-color: #A9543C;
+    transform: translateY(-3px);
+}
+
+/* 7. Kotak menu */
+.kotak {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 30%;
+    min-width: 200px;
+    margin: 1%;
+    padding: 25px 18px;
+    background-color: #FFFFFF;
+    border: 1px solid #D4E0D8;
+    border-radius: 15px;
+    text-align: center;
+    vertical-align: top;
+    box-shadow: 0 5px 15px rgba(32, 60, 58, 0.08);
+}
+
+.kotak h3 {
+    color: #C66F50;
+    margin-top: 0;
+    font-size: 20px;
+}
+
+/* 8. Kotak spesial */
+.spesial {
+    background-color: #DCE9DF;
+    border: 2px solid #6B9687;
+    border-radius: 15px;
+}
+
+/* 9. Tabel */
+.tabel {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.tabel th,
+.tabel td {
+    border: 1px solid #D4E0D8;
+    padding: 14px;
+    text-align: left;
+}
+
+.tabel th {
+    background-color: #315C55;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+}
+
+/* 10. Footer */
+#footer {
+    background-color: #203C3A;
+    color: #E9A477;
+    text-align: center;
+    padding: 18px;
+    margin-top: 30px;
+}
+
+/* RESPONSIVE HP */
+@media screen and (max-width: 600px) {
+
+    .section {
+        padding: 25px 15px;
+    }
+
+    .logo {
+        font-size: 24px;
+    }
+
+    .menu-link {
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+
+    .kotak {
+        display: block;
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .judul {
+        font-size: 23px;
+    }
+
+    .tabel th,
+    .tabel td {
+        padding: 10px;
+        font-size: 13px;
+    }
+}
